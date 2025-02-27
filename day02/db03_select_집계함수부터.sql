@@ -50,6 +50,7 @@ SELECT custid
 -- 3-20 가격이 8000원 이상인 도서를 구매한 고객에 대하여 고객별 주문도서의 총수량을 구하시오.
 -- 단, 2권이상 구매한 고객에 대해서만 한정합니다.
 -- COUNT() 등 집계함수는 WHERE에 넣을 수 없음
+
 SELECT custid
      , COUNT(*) AS 총수량
   FROM Orders
