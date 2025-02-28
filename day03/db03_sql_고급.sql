@@ -95,3 +95,9 @@ SELECT *
  SELECT *
   FROM MyBook
  WHERE price = NULL;
+
+-- IFNULL 함수
+ SELECT bookid
+	  , bookname
+      , IFNULL(price, 0) AS price
+  FROM MyBook;
