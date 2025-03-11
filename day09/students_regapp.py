@@ -231,7 +231,7 @@ root = Tk()                         # tkinter 윈도우인스턴스 생성!
 root.geometry('820x500')            # 윈도우 크기 지정
 root.title('학생정보 등록 앱')      # 윈도우 타이틀 지정
 root.resizable(False, False)        # 윈도우 사이즈 변경 불가
-#root.iconbitmap('./image/students.ico')
+root.iconbitmap('./image/students.ico')
 
 myFont =  Font(family='NanumGothic', size=10)   # 이후 화면 위젯에 지정할 동일폰트 생성
 
